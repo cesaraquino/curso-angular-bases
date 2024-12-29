@@ -7,18 +7,10 @@ import { HeroesModule } from './heroes/heroes.module';
 
 import { AppComponent } from './app.component';
 
-
 @NgModule({
-  declarations: [
-    AppComponent,
-  ],
-  imports: [
-    BrowserModule,
-    CounterModule,
-    HeroesModule,
-    DbzModule,
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, CounterModule, HeroesModule, DbzModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
